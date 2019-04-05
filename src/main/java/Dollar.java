@@ -5,11 +5,6 @@ public class Dollar {
         this.amount = amount;
     }
 
-    public Dollar times(int multiplier) {
-        int resultantAmount = this.amount * multiplier;
-        return new Dollar(resultantAmount);
-    }
-
     public Dollar dividedBy(int denominator) {
         int resultantAmount = this.amount / denominator;
         return new Dollar(resultantAmount);
